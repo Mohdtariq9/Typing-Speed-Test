@@ -14,7 +14,7 @@ let timerInterval;
 // Fetch random quote
 async function getRandomQuote() {
 
-    const res = await fetch('https://api.quoteable.io/random');
+    const res = await fetch('https://api.quotable.io/random');
     const data = await res.json();
     return data.content;
 
